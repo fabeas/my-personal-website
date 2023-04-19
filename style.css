@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+    font-size: 16px;
+}
+
+#mainTop {
+    height: 23%;
+}
+
+#menu {
+    background: rgb(255, 171, 0);
+    background: linear-gradient(0deg, rgba(255, 170, 0, 0.92) 37%, rgba(255, 208, 0, 0.829) 92%);
+    padding: 0px;
+}
+
+#menu p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+#main {
+    background-color: rgb(210, 216, 231);
+    padding: 0px;
+}
+
+/* pp start*/
+img {
+    width: 55%;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 6%;
+}
+
+/* pp finish*/
+
+h2 {
+    font-family: 'Bevan', cursive;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* links start */
+i {
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+/* links finish */
+
+/* ------------------------------------------------------------------------------- */
+
+/* main upside start */
+
+#name {
+    font-family: 'Bevan', cursive;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 15%;
+    color: rgb(43, 50, 56);
+}
+
+#job {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    margin-left: 15%;
+    color: rgb(68, 70, 71);
+}
+
+/* main top right side  */
+
+.col-4 {
+    padding-top: 5%;
+
+}
+
+.col-4 p {
+    margin-right: 20%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-4 p a {
+
+    text-decoration: none;
+
+}
+
+.col-4 p a :hover {
+    color: black;
+}
+/* main top right side  */
+
+
+/* main upside finish*/
+
+/* ------------------------------------------------------------------------------- */
+
+/* main downside start*/
+
+
+.baslik {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    color: rgba(33, 33, 34, 0.787);
+    margin-top: 2%
+}
+
+ul li a {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: rgba(55, 11, 11, 0.787);
+    cursor: pointer;
+
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    transform: translate(-1.5%);
+    padding-top: 2%;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.skills ul li {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: rgba(55, 11, 11, 0.787);
+    transform: translate(-23%, -30%);
+    float: center;
+}
+
+
+.progress {
+    width: 30%;
+    margin-left: 59%;
+    margin-top: 2%;
+
+}
+
+
+
+
+/* main downside finish*/
+
+
+
+/*media query for mobile  */
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .row {
+        padding: 0;
+    }
+
+
+    img {
+        width: 80%;
+    }
+
+
+    #name {
+        margin-left: 5%;
+    }
+
+    #job {
+        margin-left: 5%;
+    }
+
+
+    .col-4 {
+        padding-top: 2%;
+    }
+
+    .baslik {
+        margin-top: 5%;
+    }
+
+
+    ul {
+        padding-top: 5%;
+    }
+
+
+    i {
+        margin-left: 40%;
+    }
+
+}
